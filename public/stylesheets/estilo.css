@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     
-   
      }
     
     /*header*/ 
@@ -145,7 +144,8 @@
              .marcas,
              .lanzamientos,
              .ventas{ display:none}
-        
+             .btn{width: 100%;
+                background:#0099cc; }
 
          
 @media (min-width: 1024px) {
@@ -312,7 +312,38 @@ display: none;
 .header2 .buscador{display:none}
 .header2 nav.navbar{height: 60px;}
 
+.container{  
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1000px;
+    margin:0;
+    padding:0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+    }
+    .btn{width: 240px;
+      background:#0099cc; }
+   
+
+      .deportes{
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 30px;
+    }
+        .deporte{
+           
+        margin:0.89%;
+        width:23% ;}
+        .deporte img{width:180px;height: 180px;}
+        
+    .telefono{color:black}
+
 }    
+footer{background: rgba(0,0,0,0.1);}
 
 
 
